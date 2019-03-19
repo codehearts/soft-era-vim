@@ -3,29 +3,29 @@
 " 
 " URL:https://github.com/soft-aesthetic/soft-era-vim
 " Author: Colors <@animalphase> / Port <@ngscheurich>
-" Last Change: 2018/04/12 17:52
+" Last Change: 2019/03/19 04:43
 " ============================================================
 
 let g:airline#themes#softera#palette = {}
 
-let s:normal1 = [ "#b4addf", "#a29acb", 146, 140 ]
-let s:normal2 = [ "#a29acb", "#b4addf", 140, 146 ]
-let s:normal3 = [ "#cfc8f4", "#cfc8f4", 189, 189 ]
+let s:normal1 = [ "#eceafa", "#958ac5", 255, 104 ]
+let s:normal2 = [ "#958ac5", "#c9afe0", 104, 182 ]
+let s:normal3 = [ "#c9afe0", "#eceafa", 182, 255 ]
 let g:airline#themes#softera#palette.normal = airline#themes#generate_color_map(s:normal1, s:normal2, s:normal3)
 
-let s:insert1 = [ "#25b7b8", "#1f9697", 37, 30 ]
-let s:insert2 = [ "#1f9697", "#25b7b8", 30, 37 ]
-let s:insert3 = [ "#98c4ba", "#98c4ba", 250, 250 ]
+let s:insert1 = [ "#f2edec", "#25b7b8", 255, 37 ]
+let s:insert2 = [ "#948484", "#87b6b6", 102, 109 ]
+let s:insert3 = [ "#948484", "#98c4ba", 102, 250 ]
 let g:airline#themes#softera#palette.insert = airline#themes#generate_color_map(s:insert1, s:insert2, s:insert3)
 
-let s:replace1 = [ "#dd698c", "#b55673", 168, 131 ]
-let s:replace2 = [ "#b55673", "#dd698c", 131, 168 ]
-let s:replace3 = [ "#db90a7", "#db90a7", 175, 175 ]
+let s:replace1 = [ "#eeaabe", "#dd698c", 217, 168 ]
+let s:replace2 = [ "#dd698c", "#db90a7", 168, 175 ]
+let s:replace3 = [ "#db90a7", "#eeaabe", 175, 217 ]
 let g:airline#themes#softera#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
-let s:visual1 = [ "#cabf9a", "#a69d7f", 180, 144 ]
-let s:visual2 = [ "#a69d7f", "#cabf9a", 144, 180 ]
-let s:visual3 = [ "#ede7c5", "#ede7c5", 254, 254 ]
+let s:visual1 = [ "#fffce9", "#cabf9a", 230, 180 ]
+let s:visual2 = [ "#cabf9a", "#fff7cc", 180, 230 ]
+let s:visual3 = [ "#cabf9a", "#fffce9", 180, 230 ]
 let g:airline#themes#softera#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
 let s:inactive1 = [ "#948484", "#f2edec", 102, 255 ]
